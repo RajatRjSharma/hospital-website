@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ortho</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          "h1 h2"
+          "h1 h3"
+          "h4 h4";
+        grid-gap: 10px;
+        background-color: red;
+        padding: 10px;
+      }
+      .grid-container > div {
+        background-color: powderblue;
+        text-align: center;
+        padding: 40px;
+        font-size: 30px;
+      }
+      .i1 {
+        grid-area: h1;
+        font-family: cooper;
+        color: red;
+      }
+      .i2 {
+        grid-area: h2;
+      }
+      .i3 {
+        grid-area: h3;
+      }
+      .i4 {
+        grid-area: h4;
+        font-family: cooper;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="i1">
+        Ortho
+        <hr />
+        Orthopedics is a medical specialty that focuses on the diagnosis,
+        correction, prevention, and treatment of patients with skeletal
+        deformities - disorders of the bones, joints, muscles, ligaments,
+        tendons, nerves and skin. These elements make up the musculoskeletal
+        system. Your body's musculoskeletal system is a complex system of bones,
+        joints, ligaments, tendons, muscles and nerves and allows you to move,
+        work and be active. Once devoted to the care of children with spine and
+        limb deformities, orthopedics now cares for patients of all ages, from
+        newborns with clubfeet, to young athletes requiring arthroscopic
+        surgery, to older people with arthritis. The physicians who specialize
+        in this area are called orthopedic surgeons or orthopedists.
+      </div>
+      <div class="i2">
+        <img src="13.jpg" alt="13" height="200" width="200" />
+      </div>
+      <div class="i3">
+        <img src="14.jpeg" alt="14" height="200" width="200" />
+      </div>
+      <div class="i4">&copy 2019 We Hospital. All rights are reserved</div>
+    </div>
+  </body>
+</html>

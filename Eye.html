@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eye</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          "h1 h2"
+          "h1 h3"
+          "h4 h4";
+        grid-gap: 10px;
+        background-color: red;
+        padding: 10px;
+      }
+      .grid-container > div {
+        background-color: powderblue;
+        text-align: center;
+        padding: 40px;
+        font-size: 30px;
+      }
+      .i1 {
+        grid-area: h1;
+        font-family: cooper;
+        color: red;
+      }
+      .i2 {
+        grid-area: h2;
+      }
+      .i3 {
+        grid-area: h3;
+      }
+      .i4 {
+        grid-area: h4;
+        font-family: cooper;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="i1">
+        Eye
+        <hr />
+        An optometrist is an eye doctor who has earned the Doctor of Optometry
+        (OD) degree. Optometrists examine eyes for both vision and health
+        problems, and correct refractive errors by prescribing eyeglasses and
+        contact lenses. Some optometrists also provide low vision care and
+        vision therapy.
+      </div>
+      <div class="i2">
+        <img src="21.jpg" alt="21" height="200" width="200" />
+      </div>
+      <div class="i3">
+        <img src="22.jpg" alt="22" height="200" width="200" />
+      </div>
+      <div class="i4">&copy 2019 We Hospital. All rights are reserved</div>
+    </div>
+  </body>
+</html>

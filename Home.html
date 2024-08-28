@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>We Hospital</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          "h1 h2 h2 h2 h2 h4"
+          "h3 h8 h8 h8 h8 h5"
+          "h3 h8 h8 h8 h8 h15"
+          "h3 h11 h12 h13 h14 h6"
+          "h3 h7 h7 h7 h9 h10"
+          "h16 h16 h16 h16 h16 h16";
+        grid-gap: 10px;
+        background-color: red;
+        padding: 10px;
+      }
+
+      .grid-container > div {
+        background-color: powderblue;
+        text-align: center;
+        padding: 40px;
+        font-size: 30px;
+      }
+
+      .i1 {
+        grid-area: h1;
+      }
+
+      .i2 {
+        grid-area: h2;
+        font-family: cooper;
+        color: red;
+      }
+
+      .i3 {
+        grid-area: h3;
+        font-family: cooper;
+        color: red;
+      }
+
+      .i4 {
+        grid-area: h4;
+      }
+
+      .i5 {
+        grid-area: h5;
+        font-family: cooper;
+        color: red;
+      }
+
+      .i6 {
+        grid-area: h6;
+      }
+
+      .i7 {
+        grid-area: h7;
+        font-family: cooper;
+        color: red;
+      }
+
+      .i8 {
+        grid-area: h8;
+        font-family: cooper;
+        color: red;
+      }
+
+      .i9 {
+        grid-area: h9;
+        font-family: cooper;
+        color: red;
+      }
+
+      .i10 {
+        grid-area: h10;
+        font-family: cooper;
+        color: red;
+      }
+
+      .i11 {
+        grid-area: h11;
+      }
+
+      .i12 {
+        grid-area: h12;
+      }
+
+      .i13 {
+        grid-area: h13;
+      }
+
+      .i14 {
+        grid-area: h14;
+      }
+
+      .i15 {
+        grid-area: h15;
+        font-family: cooper;
+        color: red;
+      }
+
+      .i16 {
+        grid-area: h16;
+        font-family: cooper;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="i1"><img src="1.jpg" alt="1" height="150" width="150" /></div>
+      <div class="i2">
+        <marquee>
+          <h1>We Hospital</h1>
+        </marquee>
+      </div>
+      <div class="i3">
+        Our Departments
+        <hr />
+        <a href="Medical.html">Medical</a>
+        <hr />
+        <a href="Ortho.html">Ortho</a>
+        <hr />
+        <a href="ENT.html">ENT</a>
+        <hr />
+        <a href="Pediatric.html">Pediatric</a>
+        <hr />
+        <a href="Skin.html">Skin</a>
+        <hr />
+        <a href="Eye.html">Eye</a>
+        <hr />
+        <a href="Dental.html">Dental</a>
+        <hr />
+        <a href="Surgery.html">Surgery</a>
+        <hr />
+        <a href="Homeopathy.html">Homeopathy</a>
+        <hr />
+        <a href="De-Addiction.html">De-Addiction</a>
+        <hr />
+        <a href="Psychiatry.html">Psychiatry</a>
+      </div>
+      <div class="i4"><img src="1.jpg" alt="1" height="150" width="150" /></div>
+      <div class="i5">
+        <a href="My%20Account.html">My Account</a>
+        <hr />
+        <a href="Login.html">Login</a>
+        <hr />
+        <a href="Signup.html">Signup</a>
+      </div>
+      <div class="i6">
+        <img
+          src="7.jpg"
+          alt="7"
+          height="150"
+          width="150"
+          onmouseover="fun()"
+          onmouseout="fun1()"
+        />
+      </div>
+      <div class="i7">
+        Anouncement
+        <hr />
+        <marquee
+          >Free Medical Checkup on 15th August / Hospital will remain close on
+          wednesday, 6th August
+        </marquee>
+      </div>
+      <div class="i8">
+        Book Appointment
+        <hr />
+        Patient Name:<input type="text" />
+        <hr />
+        Department:<select name="pp">
+          <option>Medical</option>
+          <option>Ortho</option>
+          <option>ENT</option>
+          <option>Pediatric</option>
+          <option>Skin</option>
+          <option>Eye</option>
+          <option>Dental</option>
+          <option>Surgery</option>
+          <option>Homepiathy</option>
+          <option>De-Addiction</option>
+          <option>Psychiatry</option>
+        </select>
+        <hr />
+        Contact No:<input type="text" />
+        <hr />
+        <input type="submit" onclick="fun3()" />
+      </div>
+      <div class="i9"><a href="Doctors.html">Doctors</a></div>
+      <div class="i10">
+        <a href="About%20Us.html">About Us</a>
+      </div>
+      <div class="i11">
+        <img
+          src="2.jpg"
+          alt="2"
+          id="i1"
+          height="150"
+          width="100"
+          onmouseover="fun()"
+          onmouseout="fun1()"
+        />
+      </div>
+      <div class="i12">
+        <img
+          src="3.jpg"
+          alt="3"
+          id="i1"
+          height="150"
+          width="100"
+          onmouseover="fun()"
+          onmouseout="fun1()"
+        />
+      </div>
+      <div class="i13">
+        <img
+          src="4.jpg"
+          alt="4"
+          id="i1"
+          height="150"
+          width="100"
+          onmouseover="fun()"
+          onmouseout="fun1()"
+        />
+      </div>
+      <div class="i14">
+        <img
+          src="6.jpg"
+          alt="6"
+          id="i1"
+          height="150"
+          width="100"
+          onmouseover="fun()"
+          onmouseout="fun1()"
+        />
+      </div>
+      <div class="i15">
+        <a href="Emergency.html">Emergency</a>
+        <hr />
+        +1234567
+      </div>
+      <div class="i16">&copy 2019 We Hospital. All rights are reserved</div>
+    </div>
+    <script>
+      function fun3() {
+        window.alert("Your Appointment is Submitted ");
+        document.write(
+          "Your Appointment is for Monday from 11:00am to 12:00noon"
+        );
+      }
+    </script>
+  </body>
+</html>

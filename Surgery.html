@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Surgery</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          "h1 h2"
+          "h1 h3"
+          "h4 h4";
+        grid-gap: 10px;
+        background-color: red;
+        padding: 10px;
+      }
+      .grid-container > div {
+        background-color: powderblue;
+        text-align: center;
+        padding: 40px;
+        font-size: 30px;
+      }
+      .i1 {
+        grid-area: h1;
+        font-family: cooper;
+        color: red;
+      }
+      .i2 {
+        grid-area: h2;
+      }
+      .i3 {
+        grid-area: h3;
+      }
+      .i4 {
+        grid-area: h4;
+        font-family: cooper;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="i1">
+        Surgery
+        <hr />
+        A physician who treats disease, injury, or deformity via operative or
+        manual methods to physically change body tissues. The definition of
+        surgeon has begun to blur in recent years as surgeons have begun to
+        minimize the cutting, employing new technologies that are minimally
+        invasive (such as using scopes and lasers). In England, a surgeon was
+        once a practitioner without an MD degree but with the license of the
+        Royal College of Surgeons.
+      </div>
+      <div class="i2">
+        <img src="25.jpg" alt="25" height="200" width="200" />
+      </div>
+      <div class="i3">
+        <img src="26.jpg" alt="26" height="200" width="200" />
+      </div>
+      <div class="i4">&copy 2019 We Hospital. All rights are reserved</div>
+    </div>
+  </body>
+</html>
